@@ -1,0 +1,75 @@
+
+
+.product-list {
+ max-width: 900px;
+ margin: 20px auto 0;
+ padding: 0 20px;
+}
+
+.product-list h1 {
+ margin-bottom: 40px;
+}
+
+.product-list article {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: #f6dbdb;
+ border: 1px solid #333;
+ border-radius: 5px;
+ padding: 30px;
+ margin-bottom: 20px;
+}
+
+.product-list article p {
+ font-size: 16px;
+ color: rgb(136, 130, 130);
+ margin-top: 10px;
+ line-height: 24px;
+}
+
+.product-list article a {
+ width: 80%;
+ height: 42px;
+ border-radius: 5px;
+ border: 1px solid #333;
+ background: none;
+ margin-top: 10px;
+ color: rgb(199, 156, 156);
+ font-weight: bold;
+ font-size: 16px;
+ text-decoration: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 200ms;
+}
+
+.product-list article a:hover {
+ background: #fff0ac;
+ color: rgb(37, 37, 37);
+}
+
+.actions {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.product-list .actions button {
+ margin-bottom: 20px;
+ padding: 10px;
+ border-radius: 5px;
+ border: 0;
+ background: #faed00b9;
+ font-weight: bold;
+ color: #ec818a;
+ font-size: 16px;
+ cursor: pointer;
+ opacity: 0.6;
+}
+
+.product-list .actions button:hover {
+ opacity: 1;
+}
